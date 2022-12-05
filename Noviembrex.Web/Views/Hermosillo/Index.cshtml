@@ -1,0 +1,62 @@
+﻿@using Noviembrex.Core.Entidades
+@model List<Hermosillo>
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Hermosillo</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <a href="@Url.Action("Registro", "Hermosillo", new { id = 0 })" class="btn btn-success">Agregar nuevo</a>
+
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Apellido</th>
+                                        <th>Telefono</th>
+                                        <th>Direccion</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(Hermosillo e in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @e.Nombre
+                                            </td>
+                                            <td>
+                                                @e.Apellido
+                                            </td>
+                                            <td>
+                                                @e.Telefono
+                                            </td>
+                                            <td>
+                                                @e.Direccion
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("Registro", "Hermosillo", new { id = e.Id })" class="btn btn-primary">Editar</a>
+                                                <a href="@Url.Action("Eliminar", "Hermosillo", new { id = e.Id })" class="btn btn-danger">Eliminar</a>
+                                            </td>
+                                        </tr>
+
+                                    }
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

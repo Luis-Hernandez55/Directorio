@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noviembrex.Web", "Noviembrex.Web\Noviembrex.Web.csproj", "{9FD57107-770C-4646-B1C7-48BA44F81C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noviembrex.Core", "Noviembrex.Core\Noviembrex.Core.csproj", "{6855DDF0-A65F-411A-81F4-9FCA4771EC3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD57107-770C-4646-B1C7-48BA44F81C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD57107-770C-4646-B1C7-48BA44F81C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD57107-770C-4646-B1C7-48BA44F81C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD57107-770C-4646-B1C7-48BA44F81C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6855DDF0-A65F-411A-81F4-9FCA4771EC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6855DDF0-A65F-411A-81F4-9FCA4771EC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6855DDF0-A65F-411A-81F4-9FCA4771EC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6855DDF0-A65F-411A-81F4-9FCA4771EC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F5AD27E-B7B4-484C-9500-E34D677596EF}
+	EndGlobalSection
+EndGlobal
